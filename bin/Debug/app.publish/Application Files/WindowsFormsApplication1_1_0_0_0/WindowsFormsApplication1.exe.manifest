@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="WindowsFormsApplication1.exe" version="1.0.0.0" publicKeyToken="a7944a4222e99fab" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="WindowsFormsApplication1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="WindowsFormsApplication1.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowsFormsApplication1.exe" size="1812480">
+      <assemblyIdentity name="WindowsFormsApplication1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0l1NWz0wDEKDMfLnIeAPeDGCjpkj7EEOglmU6Fjf3DY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Database1.mdf" size="3211264" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>k2evO8O5QuLan2cjtFCc4ZSUHEuoZKIsQ2UtEwl/IHg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Database1_log.ldf" size="802816" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KOV6lT03MiCzXvNB6aVsWXjJGg+Rkazq8BldFVPprsM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="WindowsFormsApplication1.exe.config" size="560">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tewVUjkoKZ+rwE6oWWzZFq6KgTSXMv8YqCvIY33hkjE=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-LTL82IQF\Narada" issuerKeyHash="0807aa9b812aa0c642068ba046d6e5b87fa26d18" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Tnnz/R3C4LvNCe/tK86zQvrPNWYEStMNoXmeDnN9EhM=</DigestValue></Reference></SignedInfo><SignatureValue>fSGK6vCKfKVkX8k38FTm1FnqS9rHOGdgh3qxvoV51xHradakIhiFNu1UCQh6RDYxM+bYS+z72FZjyQL4mDnQds0XONEqBOWNSdjj1RAySlDKuO4E/80MRNrzqFs/JQYiuv5R43NCeX1BNoVg/RUYbnAKsIs7EE5D8q5WshSSd98=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uezRf+49+ONOfaBcH4biVrS4chyvrgJ4lF/SPWVAsaJ7MTFId74KW5rhGutvNuSs14k/R6clWdmaQBTmqLJphBTESWQOX4bSobEStj8hw25S5zgwjJ2pnUNKJ4Rz+2e57JWfU40uDvQ0cjap4Ivs/uKm9WjMm+Z3LJJLX053ta0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="13127d730e9e79a10dd34a046635cffa42b3ce2bedef09cdbbe0c21dfdf3794e" Description="" Url=""><as:assemblyIdentity name="WindowsFormsApplication1.exe" version="1.0.0.0" publicKeyToken="a7944a4222e99fab" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-LTL82IQF\Narada</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>vy/q1072+pCidbYoXhFh/m+jELsBvg6sggFZ6SG2xCA=</DigestValue></Reference></SignedInfo><SignatureValue>CTQR3q8/ZTgIXMb22Gi6HKqGlUk8TIUOdeDIeAErRyu7FV0NdPZxTn6wAII3n+djIjfb2s2Sovt8Lm0fN5V94BySz9Yk7RhOeBPq93VLDexXSvgZTk1yTauG5d1vaMIEEOQXYyzYJ7x/hs+ATXP1lvfM3vEq6Ke1gD7MvrUr/Hg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uezRf+49+ONOfaBcH4biVrS4chyvrgJ4lF/SPWVAsaJ7MTFId74KW5rhGutvNuSs14k/R6clWdmaQBTmqLJphBTESWQOX4bSobEStj8hw25S5zgwjJ2pnUNKJ4Rz+2e57JWfU40uDvQ0cjap4Ivs/uKm9WjMm+Z3LJJLX053ta0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQaLJSzlZaj7xL4G/mIDVqgjANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwATABBAFAAVABPAFAALQBMAFQATAA4ADIASQBRAEYAXABOAGEAcgBhAGQAYTAeFw0yMDAzMDQxNTQ4NThaFw0yMTAzMDQyMTQ4NThaMDcxNTAzBgNVBAMeLABMAEEAUABUAE8AUAAtAEwAVABMADgAMgBJAFEARgBcAE4AYQByAGEAZABhMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC57NF/7j344059oFwfhuJWtLhyHK+uAniUX9I9ZUCxonsxMUh3vgpbmuEa62825KzXiT9HpyVZ2ZpAFOaosmmEFMRJZA5fhtKhsRK2PyHDblLnODCMnamdQ0onhHP7Z7nslZ9TjS4O9DRyNqngi+z+4qb1aMyb5ncskktfTne1rQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAIIIr9yj7EGLnQg8X58ANchvXyvgR8yJJZ4T7P7H4/LU3sDxf/BPS6wPcjnO03PPIpheRdZG4/F1WOZdhCHKGFKMDO0mowl2sVWquZ04K7hQlcpK2JW7ctfoU4UgtS/WgGyd/aHCJxoLQ/IjWpsuk+437nwegKP3VPxQm3SH9vfF</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
