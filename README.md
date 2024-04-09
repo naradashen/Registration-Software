@@ -7,8 +7,12 @@ git clone https://github.com/naradashen/Registration-Software.git
 ```
 
 ## Usage
-```bash
+```
 Registration-Software > publish > setup.exe
 ```
-
+### Use below credentials to login
+```
+User Name: rebels
+Password: password
+```
 Enjoy!😁
